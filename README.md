@@ -10,7 +10,7 @@ max_iters = 25
 n_clusters = 3
 
 # Fit the model
-model = GaussianMixtureModel(n_clusters=)
+model = GaussianMixtureModel(n_clusters=n_clusters)
 model.fit(X,max_iters=max_iters)
 
 # Predict classes for clustering
